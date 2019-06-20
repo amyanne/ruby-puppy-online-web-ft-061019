@@ -11,8 +11,8 @@ class Dog
     @@all.clear 
   end 
   def self.all
-    @@all.each_with_index do |dog, index|
-      puts @@all[index]
+    @@all.each do |dog|
+      puts @@all[dog]
     end
   end 
 end 
