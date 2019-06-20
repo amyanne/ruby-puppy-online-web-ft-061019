@@ -4,8 +4,7 @@ class Dog
   @@all = []
  def self.new (name)
    @name = name 
-   @@all << @name
-   @@all.flatten
+   @@all << self
  end
 
   def self.clear_all
