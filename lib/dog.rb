@@ -1,6 +1,6 @@
 require 'pry'
 class Dog 
-  attr_reader :name
+  attr_accessor :name
   @@all = []
  def self.new (name)
    @name = name 
